@@ -35,7 +35,7 @@ LinkLayerRole role;
 
 uint8_t frame_number = 0x00;
 Frame latestFrame;
-int timeout = 3;
+int timeout = 1;
 int retries = 3;
 
 void alarmHandler(int signal)
